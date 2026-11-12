@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日常家飾品</title>
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#faf7f0;
+color:#62574b;
+}
+header{
+background:#f1e8da;
+padding:22px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.logo{font-size:25px;letter-spacing:4px}
+nav a{
+margin-left:22px;
+text-decoration:none;
+color:#62574b;
+}
+.hero{
+text-align:center;
+padding:70px 20px;
+background:#e9ddcd;
+}
+.hero h1{
+font-size:42px;
+font-weight:400;
+letter-spacing:5px;
+}
+.hero img{
+width:85%;
+max-width:850px;
+height:350px;
+object-fit:cover;
+border-radius:8px;
+}
+section{
+padding:55px 8%;
+text-align:center;
+}
+h2{font-weight:400;letter-spacing:3px}
+.products{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+margin-top:30px;
+}
+.products img{
+width:100%;
+height:230px;
+object-fit:cover;
+border-radius:8px;
+}
+.products h3{font-weight:400}
+footer{
+background:#e9ddcd;
+text-align:center;
+padding:30px;
+}
+.button{
+display:inline-block;
+background:#a58e76;
+color:white;
+padding:12px 28px;
+text-decoration:none;
+margin-top:15px;
+}
+@media(max-width:650px){
+header{flex-direction:column;gap:15px}
+nav a{margin:0 8px}
+.hero h1{font-size:29px}
+.hero img{height:230px}
+.products{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">日常家飾品</div>
+<nav>
+<a href="index.html">首頁</a>
+<a href="about.html">關於我們</a>
+<a href="contact.html">聯絡我們</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>讓日子，住進美好裡</h1>
+<p>用簡單的家飾品，打造溫暖舒適的生活空間。</p>
+<img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200" alt="日系居家空間">
+</div>
+
+<section>
+<h2>歡迎來到日常家飾品</h2>
+<p>生活的美好，從家的每個小細節開始。</p>
+<p>精選自然、簡約、溫柔的居家用品，讓家成為最舒服的地方。</p>
+</section>
+
+<section>
+<h2>精選居家商品</h2>
+
+<div class="products">
+<div>
+<img src="https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=600" alt="陶瓷花器">
+<h3>花器與居家擺飾</h3>
+<p>為空間增添自然氣息</p>
+</div>
+
+<div>
+<img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=600" alt="居家織品">
+<h3>抱枕與居家織品</h3>
+<p>讓生活更加柔軟舒適</p>
+</div>
+
+<div>
+<img src="https://images.unsplash.com/photo-1602874801007-bd458bb1b8b6?w=600" alt="香氛蠟燭">
+<h3>香氛生活小物</h3>
+<p>享受寧靜的居家時光</p>
+</div>
+</div>
+
+<a class="button" href="about.html">認識我們</a>
+</section>
+
+<footer>
+<p>日常家飾品 DAILY HOME</p>
+<p>讓生活多一點美感，讓家多一點溫度。</p>
+</footer>
+
+</body>
+</html>
